@@ -24,8 +24,8 @@ export async function POST(req: Request) {
     const data = await response.json();
 
     // Map backend response to frontend shape
-    const label = data.verdict === 'ADVERSARIAL' ? 'MALICIOUS' : 
-                  data.is_grey_zone ? 'GREY_ZONE' : 'SAFE';
+    const label = data.verdict === 'ADVERSARIAL' ? 'MALICIOUS' :
+      data.is_grey_zone ? 'GREY_ZONE' : 'SAFE';
 
     return NextResponse.json({
       label,
