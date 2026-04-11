@@ -1,5 +1,9 @@
 # AI Bouncer
 
+**Live Deployments:**
+- 🌐 **Frontend (Vercel):** [https://ai-bouncer.vercel.app](https://ai-bouncer.vercel.app)
+- 🧠 **Backend (Hugging Face Spaces):** [https://huggingface.co/spaces/d4crush/ai-bouncer-api](https://huggingface.co/spaces/d4crush/ai-bouncer-api)
+
 AI Bouncer is a robust security application designed for **prompt safety and jailbreak defense**. It uses an ensemble pipeline of traditional and machine-learning based signals to detect adversarial prompts, blacklisted content, and zero-day attacks before they interact with language models.
 
 Because the entire infrastructure is decoupled—with the frontend in Next.js and the powerful ML Engine in Python—it acts as a scalable enterprise firewall, completely independent of whatever target LLMs you eventually decide to use.
