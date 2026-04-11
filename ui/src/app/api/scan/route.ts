@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const BOUNCER_API_URL = process.env.BOUNCER_API_URL || 'http://localhost:8000';
+const BOUNCER_API_URL = process.env.BOUNCER_API_URL || 'https://d4crush-ai-bouncer-api.hf.space';
 
 export async function POST(req: Request) {
   try {
