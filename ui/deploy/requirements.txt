@@ -1,0 +1,6 @@
+xgboost
+sentence-transformers
+scikit-learn
+gradio
+numpy
+pandas

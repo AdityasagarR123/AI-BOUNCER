@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+xgboost
+scikit-learn
+sentence-transformers
+faiss-cpu
+joblib
+numpy
+pandas

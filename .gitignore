@@ -1,0 +1,14 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.env
+.env.local
+.venv/
+venv/
+.DS_Store
+*.ipynb_checkpoints/
+ui/_nb_output*.txt
+ui/_read_nb*.py
+ui/node_modules/
+ui/.next/
